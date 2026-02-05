@@ -1,13 +1,15 @@
 # Cross-Border Payment Authorization Monitoring 
 ## 结构
-crossborder-payment-risk monitoring/
+crossborder-payment-risk-a1/
 ├── README.md
-├── payment_auth_analysis.ipynb
+├── notebooks/
+│   └── payment_auth_analysis.ipynb
 ├── dataset/
 │   └── payment_auth_data.csv
 ├── dashboard/
 │   ├── auth_rate_trend.png
-│   └── ...
+│   ├── country_payment_heatmap.png
+│   └── decline_code_dist.png
 └── risk_strategy.md
 ## 项目背景
 在跨境电商业务中，支付授权成功率（Auth Rate）直接影响订单转化与 GMV。
