@@ -1,0 +1,4 @@
+psp_name,auth_rate,txn_cnt
+Stripe,0.42857142857142855,7
+Checkout,0.5,10
+Adyen,0.5714285714285714,7
